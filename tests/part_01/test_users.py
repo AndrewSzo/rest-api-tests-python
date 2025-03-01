@@ -1,4 +1,4 @@
-from pytest_steps import test_steps
+from pytest_steps import test_steps # type: ignore
 
 import services.part_01.users as users
 

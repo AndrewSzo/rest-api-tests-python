@@ -2,7 +2,9 @@ name: Python Tests
 run-name: Rest API Python Tests
 
 on:
-  push:
+  schedule:
+    - cron: "*/2 * * * *"
+  push
   
 jobs:
   Run-Tests:
